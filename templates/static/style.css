@@ -1,0 +1,40 @@
+/** {*/
+/*    border: 3px black solid;*/
+/*}*/
+
+.search_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    flex-direction: column;
+}
+
+.search_field {
+    border-radius: 5px;
+    border: 2px solid;
+    height: 25px;
+}
+
+.submit_button {
+    border-radius: 10px;
+    width: 10vw;
+    height: 6vh;
+}
+
+.forecast_box {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    min-width: 30vw;
+    border-radius: 10px;
+    height: 40vh;
+    background-color: #bbbb;
+    box-sizing: border-box;
+    flex-shrink: 1;
+}
+
+
+#error-msg {
+    color: red;
+}
