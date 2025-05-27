@@ -44,11 +44,11 @@ uvicorn app:app --port 8000 --host 127.0.0.1
 <li>
 соберите контейнер командой
 
-<code>docker build -t weather_app</code>
+<code>docker build -t weather_app .</code>
 
 </li>
 <li>
-запустите контейнер <code> docker run weather_app</code>
+запустите контейнер <code> docker run -d -p 8000:8000 --name weather_app </code>
 </li>
 </ol>
 
