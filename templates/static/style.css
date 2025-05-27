@@ -2,6 +2,21 @@
 /*    border: 3px black solid;*/
 /*}*/
 
+.recent {
+    display: flex;
+    flex-direction: row;
+    max-width: 30vw;
+    overflow-x: scroll;
+    padding: 10px;
+}
+
+.recent button {
+    margin: 3px;
+    color: #747d73;
+    border-radius: 10px;
+    min-width: 10vw;
+}
+
 .search_box {
     display: flex;
     justify-content: center;
@@ -38,3 +53,4 @@
 #error-msg {
     color: red;
 }
+
